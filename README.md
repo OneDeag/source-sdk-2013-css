@@ -1,16 +1,12 @@
-# Source SDK 2013
+# Copyright-Strike: Source
 
-Source code for Source SDK 2013.
-
-Contains the game code for Half-Life 2, HL2: DM and TF2.
-
-**Now including Team Fortress 2! ✨**
+The aim of this project is to have a base version of Counter-Strike: Source on the new SDK with additional fixes.
 
 ## Build instructions
 
 Clone the repository using the following command:
 
-`git clone https://github.com/ValveSoftware/source-sdk-2013`
+`git clone https://github.com/OneDeag/source-sdk-2013-css/`
 
 ### Windows
 
@@ -24,17 +20,17 @@ Requirements:
 
 Inside the cloned directory, navigate to `src`, run:
 ```bat
-createallprojects.bat
+create_cstrike.bat
 ```
-This will generate the Visual Studio project `everything.sln` which will be used to build your mod.
+This will generate the Visual Studio project `counterstrike.sln` which will be used to build your mod.
 
 Then, on the menu bar, go to `Build > Build Solution`, and wait for everything to build.
 
-You can then select the `Client (Mod Name)` project you wish to run, right click and select `Set as Startup Project` and hit the big green `> Local Windows Debugger` button on the tool bar in order to launch your mod.
-
 The default launch options should be already filled in for the `Release` configuration.
 
-### Linux
+### Linux - 
+
+INSTRUCTIONS ARE PULLED STRAIGHT FROM THE SDK, THESE NEED TO BE UPDATED. WILL NOT WORK AS-IS RIGHT NOW. 
 
 Requirements:
  - Source SDK 2013 Multiplayer installed via Steam
@@ -69,3 +65,17 @@ https://partner.steamgames.com/doc/sdk/uploading/distributing_source_engine
 The SDK is licensed to users on a non-commercial basis under the [SOURCE 1 SDK LICENSE](LICENSE), which is contained in the [LICENSE](LICENSE) file in the root of the repository.
 
 For more information, see [Distributing your Mod](#markdown-header-distributing-your-mod).
+
+## History
+
+The project was originally based on FriskTheFallenHuman's CSS-Base. The repository for that project was deleted and this fork seems to be the only existing version of the code:
+
+https://github.com/blackletum/css-base
+
+CSS-base itself is a fork of another project called CSS-Community:
+
+https://github.com/DeadZoneLuna/css-community
+
+Which itself was based on the SourcePlusPlus CSS Port:
+
+https://github.com/SCell555/Source-PlusPlus
