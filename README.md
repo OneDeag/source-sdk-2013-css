@@ -2,6 +2,8 @@
 
 The aim of this project is to have a base version of Counter-Strike: Source on the new SDK with additional fixes.
 
+To play this mod, you will need to have both Counter-Strike: Source and Source SDK 2013 MP installed. Both will need to be on the newest versions. 
+
 ## Build instructions
 
 Clone the repository using the following command:
